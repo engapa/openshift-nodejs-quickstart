@@ -25,7 +25,7 @@ Add this entry to file /etc/openshift/quickstarts.json in broker host :
 
 ```json
 {"quickstart": {
-    "id":"4",
+    "id":"5",
     "href":"https://broker.ose.hi.inet/quickstarts/nodejs",
     "name":"PDI - Nodejs",
     "summary":"Custom Nodejs version application.",
@@ -34,13 +34,13 @@ Add this entry to file /etc/openshift/quickstarts.json in broker host :
     "website":"http://nodejs.org/",
     "language":"Java",
     "tags":"PDI, nodejs, script",
-    "initial_git_url":"https://github.com/engapa/openshift-nodejs-quickstart.git",
+    "initial_git_url":"https://github.com/eng30/openshift-nodejs-quickstart.git",
     "provider":"PDI",
     "admin_tags":[]
   }}
 ```
 
-An <a href="https://broker.ose.hi.inet/console/application_types/quickstart!4">item for this QuickStart</a> should be appear in OpenShift web console. You must to provide the name of this application only.
+An <a href="https://broker.ose.hi.inet/console/application_types/quickstart!5">item for this QuickStart</a> should be appear in OpenShift web console. You must to provide the name of this application only.
 
 Selecting a Node version to install/use
 ---------------------------------------
