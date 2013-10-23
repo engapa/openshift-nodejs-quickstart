@@ -1,0 +1,35 @@
+{
+  "name": "PDI-Nodejs-App",
+  "version": "1.0.0",
+  "description": "PDI - OpenShift Node.js Application",
+  "keywords": [
+    "PDI",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "OpenShift",
+    "email": "engapa@aurigae.com",
+    "url":  "http://broker.ose.hi.inet/"
+  },
+  "homepage": "http://broker.ose.hi.inet/",
+  "repository": {
+    "type": "git",
+    "url": "https://pdihub.com/egp30/openshift-nodejs-quickstarts"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "express": "*"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+}
