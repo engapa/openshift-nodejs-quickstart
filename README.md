@@ -1,5 +1,5 @@
-Custom version Node[.js] on PDI's OpenShift PaaS QuickStart [![Build Status](https://travis-ci.org/engapa/openshift-nodejs-quickstart.png)](https://travis-ci.org/engapa/openshift-nodejs-quickstart)
-=================================================
+Custom version Node[.js] on PDI's OpenShift PaaS [![Build Status](https://travis-ci.org/engapa/openshift-nodejs-quickstart.png)](https://travis-ci.org/engapa/openshift-nodejs-quickstart)
+================================================
 ***
 
 Create the server by RHC client
