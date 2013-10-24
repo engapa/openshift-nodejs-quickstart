@@ -2,23 +2,20 @@ Custom version Node[.js] on PDI's OpenShift PaaS [![Build Status](https://travis
 ================================================
 ***
 
-Create the server by RHC client
--------------------------------
+Create nodejs application by RHC client
+---------------------------------------
 
 <a href="https://broker.ose.hi.inet/">Create an account</a> and install the <a href="https://www.openshift.com/get-started">command-line client tools</a>.
 
-Create a DIY application using **from-code** option:
+Create the application using **from-code** option:
 
-    rhc app create -a tomcat -t diy-0.1 --from-code "https://github.com/engapa/openshift-tomcat-DIY-quickstart.git"
+    rhc app create -a nodejs -t nodejs-0.6 --from-code "https://pdihub.hi.inet/egp30/openshift-nodejs-quickstart.git"
 
 That's it, you can now checkout your tomcat at:
-    http://tomcat-$yournamespace.rhcloud.com
+    http://nodejs-$yournamespace.ose.hi.inet
 
-The default managing account is **tomcat/tomcat**; this can be changed by altering the 
-start action hook file, committing the change within your secure OpenShift
-Git account and issuing another <code>git push</code>.
 
-Create the server from web console
+Create nodejs application on web console
 ----------------------------------
 
 Add this entry to file /etc/openshift/quickstarts.json in broker host :
@@ -34,7 +31,7 @@ Add this entry to file /etc/openshift/quickstarts.json in broker host :
     "website":"http://nodejs.org/",
     "language":"Java",
     "tags":"PDI, nodejs, script",
-    "initial_git_url":"https://github.com/eng30/openshift-nodejs-quickstart.git",
+    "initial_git_url":"https://pdihub.hi.inet/eng30/openshift-nodejs-quickstart.git",
     "provider":"PDI",
     "admin_tags":[]
   }}
@@ -42,8 +39,8 @@ Add this entry to file /etc/openshift/quickstarts.json in broker host :
 
 An <a href="https://broker.ose.hi.inet/console/application_types/quickstart!5">item for this QuickStart</a> should be appear in OpenShift web console. You must to provide the name of this application only.
 
-Selecting a Node version to install/use
----------------------------------------
+Selecting Node version
+-----------------------
 
 The action_hooks in this application will use that NODEJS_VERSION marker
 file to download and extract that Node version if it is available on
