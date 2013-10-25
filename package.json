@@ -16,7 +16,7 @@
   "homepage": "http://broker.ose.hi.inet/",
   "repository": {
     "type": "git",
-    "url": "https://pdihub.com/egp30/openshift-nodejs-quickstarts"
+    "url": "https://pdihub.hi.inet/egp30/openshift-nodejs-quickstarts"
   },
 
   "engines": {
