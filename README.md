@@ -9,7 +9,7 @@ Create nodejs application by RHC client
 
 Create the application using **from-code** option:
 
-    rhc app create -a nodejs -t nodejs-0.6 --from-code "https://pdihub.hi.inet/egp30/openshift-nodejs-quickstart.git"
+    rhc app create -a nodejs -t nodejs-0.6 --from-code "https://github.com/engapa/openshift-nodejs-quickstart.git"
 
 That's it, you can now checkout your tomcat at:
     http://nodejs-$yournamespace.ose.hi.inet
@@ -31,7 +31,7 @@ Add this entry to file /etc/openshift/quickstarts.json in broker host :
     "website":"http://nodejs.org/",
     "language":"Java",
     "tags":"PDI, nodejs, script",
-    "initial_git_url":"https://pdihub.hi.inet/eng30/openshift-nodejs-quickstart.git",
+    "initial_git_url":"https://github.com/engapa/openshift-nodejs-quickstart.git",
     "provider":"PDI",
     "admin_tags":[]
   }}
