@@ -61,7 +61,8 @@ If you want to change Node.js version (example v0.10.10) then update the marker 
 That's all, you can now checkout your application at:
 
     http://nodejs-$yournamespace.ose.hi.inet
-    ( See env @ http://nodejs-$yournamespace.ose.hi.inet/env , or via **rhc ssh nodejs** from client and perform **node -v**)
+   
+( See env at http://nodejs-$yournamespace.ose.hi.inet/env , or via **rhc ssh nodejs** from client and perform **node -v**)
 
 License
 -------
