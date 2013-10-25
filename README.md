@@ -11,7 +11,7 @@ Create the application using **from-code** option:
 
     rhc app create -a nodejs -t nodejs-0.6 --from-code "https://github.com/engapa/openshift-nodejs-quickstart.git"
 
-That's it, you can now checkout your tomcat at:
+That's it, you can now checkout your application at:
     http://nodejs-$yournamespace.ose.hi.inet
 
 
