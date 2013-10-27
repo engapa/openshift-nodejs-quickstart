@@ -3,7 +3,4 @@
 #  .openshift/lib/utils
 #  Default: 0.6.20
 
-#0.6.20
-
-0.8.24
-
+0.6.20
