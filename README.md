@@ -1,4 +1,4 @@
-Custom version Node[.js] on PDI's OpenShift PaaS [![Build Status](https://travis-ci.org/engapa/openshift-nodejs-quickstart.png)](https://travis-ci.org/engapa/openshift-nodejs-quickstart)
+Custom version NodeJS on PDI's OpenShift PaaS [![Build Status](https://travis-ci.org/engapa/openshift-nodejs-quickstart.png)](https://travis-ci.org/engapa/openshift-nodejs-quickstart)
 ================================================
 ***
 
